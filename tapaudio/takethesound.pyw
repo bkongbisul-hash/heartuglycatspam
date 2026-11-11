@@ -49,7 +49,7 @@ def main_loop():
   while True:
     # Tentukan jeda waktu acak antara 15 sampai 30 menit (dalam detik)
     # Untuk pengujian awal, bisa diubah jadi lebih cepat (misal: 10 - 20 detik)
-    waktu_tunggu = random.randint(4, 10)
+    waktu_tunggu = random.randint(6, 10)
     time.sleep(waktu_tunggu)
 
     # Pilih pesan secara acak dari daftar

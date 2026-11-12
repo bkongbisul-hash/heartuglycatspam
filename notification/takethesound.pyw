@@ -37,7 +37,7 @@ def putar_suara_pendek():
   """
   try:
     pygame.mixer.init()
-    pygame.mixer.music.load("tapaudio/fartsound.mp3")  # Ganti dengan path file audio kamu
+    pygame.mixer.music.load("tapaudio/anime-ahh.mp3")  # Ganti dengan path file audio kamu
     pygame.mixer.music.play()
   except Exception:
     # Jika file suara tidak ada, program tetap berjalan tanpa error
